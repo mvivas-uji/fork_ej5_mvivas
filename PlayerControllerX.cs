@@ -4,19 +4,6 @@ using UnityEngine;
 
 public void class PlayerControllerX : MonoBehaviour
 {
-    public float speed;
-    public float rotationSpeed;
-    public float verticalInput;
-    //public GameObject Propeller;
-    public GameObject Player;
-    Vector3 originalPos;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        //Propeller = gameObject.("Propeller");
-        originalPos = gameObject.transform.position;
-    }
 
     // Update is called once per frame
     void FixedUpdate()
